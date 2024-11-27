@@ -140,7 +140,7 @@ public class UserServiceImplTest {
         assertNull(result);
 
         verify(emailService,times(1)).sendEmailVerificationEmail(anyString());
-
+        System.out.println("");
 
     }
 
