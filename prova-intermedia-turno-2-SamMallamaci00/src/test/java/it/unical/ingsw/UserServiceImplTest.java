@@ -7,19 +7,14 @@ import it.unical.ingsw.dto.UserConverter;
 import it.unical.ingsw.dto.UserDTO;
 import it.unical.ingsw.entities.Role;
 import it.unical.ingsw.entities.User;
-import it.unical.ingsw.exceptions.UserAlreadyExistsException;
 import it.unical.ingsw.service.EmailService;
 import it.unical.ingsw.service.SecurityService;
-import it.unical.ingsw.service.UserService;
 import it.unical.ingsw.service.UserServiceImpl;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-import java.io.IOException;
 
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -121,6 +116,32 @@ public class UserServiceImplTest {
 
         assertNotNull(result);
         verify(emailService, never()).sendEmailVerificationEmail(anyString());
+    }
+
+    @Test
+    public void shouldNotCreateUserDtoWhenShouldVerifyIsFalse() throws Exception{
+
+        userService.setShouldVerifyEmail(false);
+
+        when(userDao.getUserByEmail(anyString())).thenReturn(null);
+
+        when(converter.createUserDTOtoUser(createUserDTO)).thenReturn(user);
+
+        when(securityService.hash(anyString())).thenReturn("hashed_password");
+
+        when(userDao.save(user)).thenReturn(user);
+
+
+
+        UserDTO result = userService.createUser(createUserDTO);
+
+
+        assertEquals(user.getPassword(), "hashed_password");
+        assertNull(result);
+
+        verify(emailService,times(1)).sendEmailVerificationEmail(anyString());
+
+
     }
 
 
