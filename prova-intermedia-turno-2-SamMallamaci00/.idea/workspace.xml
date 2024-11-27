@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e62fed02-feda-45f1-ab0f-919f0c8031b0" name="Changes" comment="&quot;primo commit&quot;">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/unical/ingsw/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/unical/ingsw/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/it/unical/ingsw/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/unical/ingsw/UserServiceImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Ytz9tupFWKKDmLUKuPTL6jVJu6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/malla/Desktop/Samu/IngegneriaSoftware/provaIntermedia/prova-intermedia-turno-2-SamMallamaci00&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.UserServiceImplTest.shoulConvertUserToDTO">
+    <configuration name="UserServiceImplTest.shoulConvertUserToDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intermedia-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unical.ingsw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.unical.ingsw" />
+      <option name="MAIN_CLASS_NAME" value="it.unical.ingsw.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="shoulConvertUserToDTO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.shouldNotCreateUserWhenUserDoesntExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intermedia-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unical.ingsw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.unical.ingsw" />
+      <option name="MAIN_CLASS_NAME" value="it.unical.ingsw.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="shouldNotCreateUserWhenUserDoesntExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.shouldNotCreateUserWhenUserExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intermedia-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unical.ingsw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.unical.ingsw" />
+      <option name="MAIN_CLASS_NAME" value="it.unical.ingsw.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="shouldNotCreateUserWhenUserExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="prova-intermedia-turno-2-SamMallamaci00" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="prova-intermedia-turno-2-SamMallamaci00" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceImplTest.shoulConvertUserToDTO" />
+        <item itemvalue="JUnit.UserServiceImplTest.shouldNotCreateUserWhenUserExists" />
+        <item itemvalue="JUnit.UserServiceImplTest.shouldNotCreateUserWhenUserDoesntExist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e62fed02-feda-45f1-ab0f-919f0c8031b0" name="Changes" comment="&quot;primo commit&quot;" />
+      <created>1701359521746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701359521746</updated>
+      <workItem from="1701359525417" duration="4000" />
+      <workItem from="1706294979197" duration="2316000" />
+      <workItem from="1732273716698" duration="25000" />
+      <workItem from="1732632258688" duration="8523000" />
+      <workItem from="1732702894390" duration="409000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;primo commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;primo commit&quot;" />
+  </component>
+</project>
